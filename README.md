@@ -25,18 +25,21 @@ Before you begin, ensure you have met the following requirements:
 
 Navigate to the project directory:
 
-cd your-flask-app
+    ```bash
+    cd your-flask-app
 
 Install dependencies:
 
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 
 ##Running the Application
 
 Run the Flask application:
 
-python app.py
+    ```bash
+    python app.py
 
 Open your web browser and go to http://127.0.0.1:5000/
 
