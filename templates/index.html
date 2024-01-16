@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive styles */
+        @media only screen and (max-width: 600px) {
+            form {
+                padding: 10px;
+            }
+
+            input {
+                width: calc(100% - 16px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>User Dashboard</h1>
+    </header>
+
+    <section id="your-profile">
+        <h2>Your Profile</h2>
+        <form id="profile-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <button type="button" class="update-btn" onclick="updateProfile()">Update Profile</button>
+        </form>
+    </section>
+
+    <section id="all-profiles">
+        <h2>All Registered Profiles</h2>
+        <ul id="profiles-list"></ul>
+    </section>
+
+    <footer>
+        <p>© 2024 Devzery</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script>
+        // Dummy function to simulate updating the profile
+        function updateProfile() {
+            // Get values from the form
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+
+            // Display updated values in the console (replace this with actual API calls)
+            console.log('Updated Profile:');
+            console.log('Username:', username);
+            console.log('Email:', email);
+        }
+    </script>
+</body>
+</html>
