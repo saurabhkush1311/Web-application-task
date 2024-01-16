@@ -21,12 +21,12 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-flask-app.git
+   git clone https://saurabhkush1311/Web-application-task.git
 
 2. Navigate to the project directory:
 
     ```bash
-    cd your-flask-app
+    cd Web-application-task
 
 3. Install dependencies:
 
