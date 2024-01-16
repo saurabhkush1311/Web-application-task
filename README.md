@@ -18,10 +18,10 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-Clone the repository:
+1. Clone the repository:
 
-    ```bash
-    git clone https://saurabhkush1311/Web-application-task.git
+   ```bash
+   git clone https://github.com/your-username/your-flask-app.git
 
 Navigate to the project directory:
 
