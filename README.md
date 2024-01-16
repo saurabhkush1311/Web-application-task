@@ -23,12 +23,12 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/your-username/your-flask-app.git
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
     ```bash
     cd your-flask-app
 
-Install dependencies:
+3. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
@@ -36,7 +36,7 @@ Install dependencies:
 
 ##Running the Application
 
-Run the Flask application:
+4. Run the Flask application:
 
     ```bash
     python app.py
