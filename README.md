@@ -20,8 +20,8 @@ Before you begin, ensure you have met the following requirements:
 
 Clone the repository:
 
-   ```bash
-   git clone https://saurabhkush1311/Web-application-task.git
+    ```bash
+    git clone https://saurabhkush1311/Web-application-task.git
 
 Navigate to the project directory:
 
