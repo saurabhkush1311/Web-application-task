@@ -18,7 +18,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 
    ```bash
    git clone https://saurabhkush1311/Web-application-task.git
